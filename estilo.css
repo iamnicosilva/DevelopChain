@@ -1,0 +1,726 @@
+* {
+	font-family: VERDANA;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: #000f;
+	box-sizing: border-box;
+	background-image: url(imagenes/blockchaingrande.jpeg);
+}
+
+body, header, footer {
+	width: 960px;
+}
+
+
+header  {
+	height: 35px;
+	position: fixed;
+	background-color: #0399;
+	z-index: 100;
+}
+
+
+nav {
+	float: right;
+}
+
+
+
+
+.inilogo {
+	float: left;
+	box-sizing: border-box;
+}
+
+.inilogo:hover{
+	transition: 1s;
+	background-color: #00005d9f;
+}
+
+.navlogo{
+	font-family: 'IBM Plex Mono', monospace;
+	margin: 0 5px;
+	color: #ffff;
+	height: 35px;
+
+}
+
+.navlogo:hover{
+	transition: 1s;
+	color: #9cff;
+}
+
+
+
+.botoneraprincipal ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+}
+
+.boton{
+	display: inline-block;
+	height: 35px;
+	padding: 7px 3px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'IBM Plex Mono', monospace;
+	color: #ffff;
+	float: right;
+
+
+}
+
+.botoneraprincipal ul li a:hover {
+	transition: 1s;
+	background-color: #00005d9f;
+	color: #9cff;
+
+}
+
+
+
+
+/*SECTION INICIO*/
+
+.contspacer {
+	width: 960px;
+	height: 35px;
+}
+
+.contimg, .contdesc {
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+
+.contimg{
+	margin-left: 130px;
+	box-sizing: border-box;
+}
+.contimg img {
+	width: 350px;
+}
+
+.contdesc {
+	background-color: #00005dbd;
+	text-align: center;
+	padding: 13px;
+	box-sizing: border-box;
+}
+
+.tituloppal {
+	color: #ffff;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 24px;
+	margin: 0px 0 0px 0;
+}
+
+.contdesc p, p {
+	color: #ffff;
+	font-family: verdana;
+	font-size: 14px;
+	margin: 10px 0 0 0;
+}
+
+
+
+#suerte {
+	font-family: verdana;
+	color: #ffffffd5;
+	font-size:16px;
+}
+
+
+
+
+
+/*PROYECTOS*/
+
+#proyectos{
+	display: inline-block;
+	padding: 100px 130px 0 130px;
+}
+
+
+
+.proyecto1, .proyecto2, .proyecto3, .proyecto4, .proyecto5, .proyecto6 {
+	height: 100px;
+	width: 540px;
+	margin: 50px 0 50px 0;
+	float: right;
+	background-color: #0021ba75;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+
+h3 {
+	font-family: 'IBM Plex Mono', monospace;
+	color: #ffff;
+	font-size: 18px;
+	margin: 0;
+}
+
+
+.proyectoimg{
+	height: 100px;
+	width: 100px;
+	margin: 50px 0 50px 0;
+	float: left;
+	overflow: hidden;
+	background-color: #0021ba75;
+}
+
+
+.proyectoimg img {
+	height: 100%;
+}
+
+.rightmargin {
+	position: relative;
+	left: -35px;
+	}
+
+
+
+
+
+/*-----------------sección developers:*/
+
+
+
+.barra{
+	height: 35px;
+	width: 100%;
+	background-color: #0399;
+	position: relative;
+	top: 35px;
+	margin-top: 50px;
+}
+
+
+.develop {
+	width: 800px;
+	background-color: #0399;
+	height: 500px;
+	position: relative;
+	margin: 80px auto;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.developcontainer {
+	width: 350px;
+	height: 100%;
+	padding: 25px;
+	
+
+}
+
+.developcontainer h2 {
+	color: #ffff;
+	display: block;
+	height: 35px;
+	width: 100%;
+	background-color: #7758;
+	text-align: center;
+	font-family: 'IBM Plex Mono', monospace;
+}
+
+
+
+.imgcontainer {
+	width: 350px;
+	height: 300px;
+	align-content: center;
+	align-items: center;
+	overflow: hidden;
+	box-sizing: border-box;
+
+}
+
+.imgcontainer img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+#form{
+	display: inline-block;
+	padding: 0 130px 0 130px;
+	width: 960px;
+	box-sizing: border-box;
+}
+
+
+ .flex-container{
+ 	display: flex;
+ 	align-items: center;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	background: #33333393;
+ 	margin: 50px 50px;
+ }
+
+ .form {
+ 	min-width: 400px;
+ 	flex: 1;
+ 	text-align: center;
+ 	padding: 30px;
+ 	order: 5;
+ }
+
+
+ .form textarea{
+ 	min-height: 140px;
+ 	resize: none;
+ }
+
+
+
+.form__input{
+	width: 100%;
+	padding: 7px;
+	margin: 6px 0;
+	border: none;
+	border-bottom: 3px solid #36cf;
+	background: transparent;
+	color: #fff;
+}
+
+
+
+
+.form__input:hover{
+	background: linear-gradient(to bottom, transparent, #1114);
+	outline: none;
+	border-bottom: 3px solid #69ff;
+}
+
+
+.form__input:focus{
+	background: linear-gradient(to bottom, transparent, #000);
+	outline: none;
+	border-bottom: 3px solid #69ff;
+}
+
+
+
+ .form-img{
+ 	flex: 1;
+ 	padding: 10px;
+ 	display: flex;
+ 	min-width: 200px;
+ 	max-width: 200px;
+ }
+
+
+
+.form-img div{
+	padding: 20px;
+	order: 2;
+ }
+
+
+
+ .img-container{
+ 	margin: auto;
+ }
+
+
+
+ .img-container div{
+ 		background-color: #9cf9; 
+ 	border-radius: 50%;
+ 	text-align: center;
+ 	padding: 40px;
+
+ }
+
+ .form-img img{
+ 	width: 90%;
+ 	margin: auto;
+ }
+
+
+.form input[type= "submit"]{
+	background-color: #36cf;
+	border-bottom: none;
+	padding: 12px;
+}
+
+
+.form input[type= "submit"]:hover{
+	background: #69ff;
+	background-color: #69ff;
+	border-bottom: none;
+}
+
+
+
+
+
+footer{
+	margin-top: 150px;
+	height: 150px;
+	background-color: #181818a5;
+	clear: both;
+	padding: 20px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+	
+
+
+body, header, footer {
+	width: 580px;
+}
+
+
+/*SECTION INICIO*/
+
+
+.contimg, .contdesc {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.contimg{
+	width: 250px;
+	margin-left: 5px;
+	overflow: hidden;
+}
+.contimg img {
+	position: relative;
+	left: -35px;
+}
+
+.contdesc {
+	width: 320px;
+}
+
+
+
+/*-----PROYECTOS-----*/
+
+
+
+
+#proyectos{
+	padding: 0px 10px;
+}
+
+
+
+.proyecto1, .proyecto2, .proyecto3, .proyecto4, .proyecto5, .proyecto6 {
+	width: 400px;
+}
+
+
+
+
+
+
+.develop {
+
+	width: 560px; 
+	height: 440px;
+
+}
+
+.developcontainer {
+	width: 220px;
+}
+
+
+
+.imgcontainer {
+
+	width: 100%;
+	height: 190px;
+
+}
+
+
+
+#form{
+	padding: 0 10px;
+	width: 580px;
+}
+
+
+
+footer{
+	margin-top: 50px;
+	height: 200px;
+}
+
+} /*FIN MEDIA 600 A 1023*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 599px) {
+	
+
+
+
+
+body, header, footer {
+	width: 90%;
+}
+
+
+header {
+	position: relative;
+	margin: 0 auto;
+
+}
+
+
+nav {
+	float: none;
+
+}
+
+
+
+
+.inilogo {
+	float: none;
+}
+
+
+
+.navlogo{
+	text-align: center;
+}
+
+
+
+
+
+.botoneraprincipal ul li {
+	display: block;
+}
+
+.boton{
+	display: block;
+	float: none;
+	background-color: #0399;
+	text-align: center;
+
+
+}
+
+
+
+/*SECTION INICIO*/
+
+.contspacer {
+display: none;
+}
+
+.contimg, .contdesc {
+	width: 100%;
+	height: auto;
+	float: none;
+	margin: auto;
+}
+
+.contimg{
+	margin-top: 190px;
+}
+
+.contimg img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+/*PROYECTOS*/
+
+#proyectos{
+	padding: 0;
+	margin: 20 auto;
+}
+
+
+
+.proyecto1, .proyecto2, .proyecto3, .proyecto4, .proyecto5, .proyecto6 {
+	height: auto;
+	width: 100%;
+	margin: 10 0;
+	float: none;
+}
+
+
+
+.proyectoimg{
+	display: none;
+}
+
+
+
+.barra{
+	margin-bottom: 380px;
+}
+
+
+.develop {
+	width: 100%;
+	height: auto;
+	max-height: 500px;
+
+}
+
+.developcontainer {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin-bottom: 300px;
+	
+
+}
+
+.developcontainer h2 {
+	height: auto;
+}
+
+.developcontainer p {
+	margin: 5px;
+}
+
+
+.imgcontainer {
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	margin: 0 auto;
+
+}
+
+.imgcontainer img {
+	width: 100%;
+}
+
+
+
+
+
+
+#form{
+	padding: 0;
+	width:100%;
+}
+
+
+ .flex-container{
+ 	margin: auto;
+ }
+
+ .form {
+ 	min-width: 170px;
+ 	padding: 0;
+ }
+
+
+.form__input{
+	width: 90%;
+	padding: 0px;
+	
+}
+
+
+
+footer{
+	margin-top: 50px;
+	height: auto;
+	width: 100%;
+}
+
+
+
+
+
+
+} /*fin media menos de 599*/

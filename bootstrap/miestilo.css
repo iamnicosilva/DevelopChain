@@ -1,0 +1,100 @@
+body {
+	background-image: url(../imagenes/blockchaingrande.jpeg);
+}
+
+h1 { font-size: 1.7em; }
+
+h1,h2,h3 {
+	margin: 2vw 0;
+	color: #ffff;
+}
+
+#contenedor1{
+	padding: 0;
+}
+
+#imgcontainer {
+
+}
+
+img {
+	/*max-height: 500px;*/
+}
+
+#cabecera {
+	background-color: #1c375b99;
+	width: 80%;
+	padding: 6vh 3vw;
+	margin: 7vh auto;
+}
+
+#carcontainer {
+}
+
+#cab1 {
+	background-color: #032149bb;
+	padding: 3vw;
+}
+
+#cab2 {
+	background-color: #1c375b99;
+	padding: 3vw;
+}
+
+#sectionform {
+	margin: 6vh 4%;
+}
+
+
+#recordarme {
+	color: #ffff;
+}
+
+
+
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
+
+
+#contenido2{
+	background-color: #1c375b99;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+
+ #div1, #div2, #div3, #div4, #div5, #div6 {
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
+#divcard1, #divcard2, #divcard3, #divcard4, #divcard5, #divcard6 {
+	background-color: #69baff77;
+}
+
+.card-body h5, .card-body p{
+	color: #ffff;
+}
+
+
+#pie {
+	background-color: #000c;
+	text-align: center;
+	margin: 7vh 0;
+	padding: 7vh 2% 7vh 2%;
+	width: 100%;
+}
+
+
