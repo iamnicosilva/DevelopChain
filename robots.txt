@@ -1,0 +1,5 @@
+# robots.txt
+User-agent: *
+Disallow: imagenes/
+Disallow: bootstrap/images/
+Sitemap: https://iamnicosilva.github.io/DevelopChain/sitemap.xml
